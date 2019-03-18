@@ -1,7 +1,37 @@
 .App {
   text-align: center;
 }
-
+.Top{
+  background-color: rgb(199, 184, 184);
+}
+.News{
+  background-color: white;
+}
+.Newsbox{
+  padding: 5%;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  margin: 0.15%;
+}
+.img{
+  width: 12%;
+  height: 12%;
+  float: left;
+}
+.container{
+  width:100%;
+}
+.Button{
+  background-color:lightgreen;
+  border: thin;
+  border-color:black;
+}
+.Button:hover{
+  background-color: green;
+  border: thin;
+  border-color:black;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
